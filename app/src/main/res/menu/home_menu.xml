@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/ofertas"
+        app:showAsAction="never"
+        android:title="Ofertas"/>
+    <item android:id="@+id/consulta"
+        app:showAsAction="never"
+        android:title="Consulta Medica"/>
+    <item android:id="@+id/chat"
+        app:showAsAction="never"
+        android:title="Contacta a tu veterinari@"/>
+
+</menu>
