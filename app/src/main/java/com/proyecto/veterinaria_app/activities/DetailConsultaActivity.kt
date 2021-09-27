@@ -28,7 +28,7 @@ class DetailConsultaActivity : AppCompatActivity() {
             data.child("consultas").child(it.uid).child("id1").addValueEventListener(object:ValueEventListener{
                 override fun onDataChange(snapshot: DataSnapshot) {
                     val response=  snapshot.getValue<ConsultaMedica>();// snapshot.getValue(ConsultaMedica::class.java)
-                    println("pene")
+                    println("prueba")
                     println(response?.nombreCliente)
                     println(response?.fechaConsulta)
                     println(response?.descripcion)
